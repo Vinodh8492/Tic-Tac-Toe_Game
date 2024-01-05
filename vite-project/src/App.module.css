@@ -1,0 +1,182 @@
+.container{
+    display: flex;
+    padding-top: 30px;
+    padding-left: 75px;
+    gap: 5vw;  
+     
+}
+
+/* Add this to your existing CSS file or create a new one for styling */
+.overlay {
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-left: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .winOverlay {
+    background: rgb(27, 48, 48);
+    width: 27.2vw;
+    padding: 20px;
+    text-align: center;
+    height: 30vh;
+    border-radius: 2px;
+   
+  }
+
+  
+
+  
+  
+  
+
+  
+
+
+.pickplayer{
+    color: white;
+    align-self: center;
+    text-align: center;
+}
+
+.container1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(1, 20, 35);
+    border-radius: 15px;
+    width: 30vw;
+    height: 90vh;
+    
+}
+
+.small{
+    display: flex;
+    flex-direction: column;
+    color: orange;
+    width: 20vw;
+    height: 40vh;
+    background-color: black;
+    align-items: center;
+    margin-top: 50vh;
+    border-radius: 15px;
+    
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    align-self: center;
+    padding-bottom: 25px;
+    justify-content: center;
+    gap:50px;
+    padding-top: 15px;
+    background-color: rgb(62, 78, 77);
+   margin-bottom: 25px;
+   width: 350px;
+   height: 30px;
+   border-radius: 5px;
+   margin-left: 25px;
+}
+.xbutton{
+    width: 125px;
+    height:40px;
+    border-radius: 5px;
+    font-size: xx-large;
+    color: aqua;
+    background-color: black;
+}
+.obutton{
+    width: 125px;
+    height:40px;
+    border-radius: 5px;
+    font-size: xx-large;
+    color: rgb(236, 236, 12);
+    background-color: black;
+}
+.newgame{
+    color: black;
+    background-color: rgb(236, 236, 12);
+    align-self: center;
+    width: 300px;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    margin-top: 25px;
+    
+    
+}
+
+.comingsoon{
+    color: black;
+    background-color: aqua;
+    align-self: center;
+    width: 300px;
+    margin-bottom: 30px;
+    height: 40px;
+    border-radius: 10px;
+    
+}
+.invite{
+    color: black;
+    background-color: rgb(236, 236, 12);
+    align-self: center;
+    width: 12rem;
+    height: 40px;
+    border-radius: 10px;
+    
+}
+.x{
+    color: aqua;
+    
+}
+.o{
+    color: rgb(236, 236, 12); 
+}
+.xo{
+    display: flex;
+    align-self: center;
+    padding-top: 75px;
+    
+    
+}
+.quote{
+    color: aqua;
+}
+
+.suggest{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.doublecon{
+    background-color: rgb(33, 63, 135);
+    width: 400px;
+    border-radius: 5px;
+}
+
+.copyButton{
+    color: yellow;
+    background-color: black;
+    align-self: center;
+    width: 12rem;
+    height: 40px;
+    border-radius: 10px;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+   
+    
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+   
+
+}
